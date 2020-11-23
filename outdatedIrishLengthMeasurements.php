@@ -18,13 +18,8 @@ if($_POST['submit']) {
 ?>
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Convert Outdated Irish Length Measurements</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    
+<?php include_once 'includes/header.php'; ?>
+    <body>
     <div id="main-content">
       
       <h1>Convert Outdated Irish Length Measurements</h1>
@@ -68,5 +63,6 @@ if($_POST['submit']) {
       <a href="index.php">Return to menu</a>
       
     </div>
+<?php include_once 'includes/footer.php'; ?>
   </body>
 </html>

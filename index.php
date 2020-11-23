@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Conversions</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    
+<?php include_once 'includes/header.php'; ?>
+    <body>
     <div id="mainContent">
       
       <h1>Conversion</h1>
@@ -17,5 +12,7 @@
       </ul>
       
     </div>
+    
+    <?php include_once 'includes/footer.php'; ?>
   </body>
 </html>

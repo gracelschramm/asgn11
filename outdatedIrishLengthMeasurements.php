@@ -6,6 +6,7 @@ $fromValue = '';
 $fromUnit = '';
 $toUnit = '';
 $toValue = '';
+$pageTitle= "Outdated Irish Length Measurements";
 
 if($_POST['submit']) {
   $fromValue = $_POST['fromValue'];
